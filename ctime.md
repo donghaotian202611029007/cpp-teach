@@ -20,3 +20,7 @@ int main()
     cout << "随机数字:" << num << endl;
     return 0;
 }
+```
+### 解释
+1. cout << count : 先拿count当前的值1打印，打印完这一行之后，count才变成2。所以这一行输出1
+2. 在执行 cout << count : 此时count已经变成2，所以第二行输出2
