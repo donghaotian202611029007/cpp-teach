@@ -21,3 +21,8 @@ int main()
     return 0;
 }
 ```
+知识点说明
+1. #include <ctime> : 引入事间相关函数
+2. time(NULL) ：获取当前系统时间
+3. srand（）：设置随机数种子，只需要写一次
+4. rand（） % 10 ：生成0到9的随机整数
