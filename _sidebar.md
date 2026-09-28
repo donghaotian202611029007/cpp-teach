@@ -1,1 +1,4 @@
 * [count++ 自增运算符](count.md)
+* [ctime头文件，随机数生成](ctime.md)
+* [for循环基础](loop.md)
+* [课后练习](exercise.md)
