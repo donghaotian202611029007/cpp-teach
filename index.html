@@ -3,29 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>C++编程教学</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable/dist/css/theme-simple.css">
 </head>
 <body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
+<div id="app"></div>
+<script>
+window.$docsify = {
   loadSidebar: true,
   subMaxLevel: 2,
   sidebar: [
     {
       title: '课程目录',
       children: [
-        { title: 'count++ 自增运算符', path: 'count.md' },
+        { title: 'count++ 后置自增运算符', path: 'count.md' },
         { title: 'ctime头文件，随机数生成', path: 'ctime.md' },
         { title: 'for循环基础', path: 'loop.md' },
         { title: '课后练习', path: 'exercise.md' }
       ]
     }
-  ]
+  ],
+  themeable: {
+    darkmode: true
+  }
 }
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+</script>
+<script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 </body>
 </html>
